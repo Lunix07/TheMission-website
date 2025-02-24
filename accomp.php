@@ -146,14 +146,8 @@ session_start();
 </section>
 
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-wrapper section-bg2 pl-100"  data-background="assets/img/gallery/footer-bg.png">
-        <!-- Footer Start -->
+  
         <?php include 'footer.php'; ?>
-        <!-- Footer End -->
-    </div>
-</footer>
 
 
 

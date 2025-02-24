@@ -8,7 +8,7 @@
             z-index: 1000000;
             background-color: #fff;
             transition: all 0.3s ease;
-            height: 65px;
+            height: 85px;
             background-color: white;
         }
 
