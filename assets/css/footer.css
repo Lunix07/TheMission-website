@@ -1,0 +1,74 @@
+.custom-footer {
+    background-color: #222;
+    color: #e0e0e0;
+    padding: 0px 0; /* Reduced padding for smaller height */
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 5%; /* Reduced padding for compact look */
+  }
+  
+  /* Contact Info */
+  .footer-contact {
+    display: flex;
+    gap: 25px; /* Reduced space between items */
+    align-items: center;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Reduced gap */
+    font-size: 14px; /* Slightly smaller text */
+  }
+  
+  .info-item i {
+    font-size: 18px; /* Smaller icon */
+    color: #ff7f50;
+  }
+  
+  .info-item p {
+    font-size: 14px;
+    color: #e0e0e0;
+    font-weight: 400;
+  }
+  
+  /* Social Media */
+  .footer-social {
+    display: flex;
+    gap: 15px; /* Reduced gap */
+  }
+  
+  .footer-social a {
+    color: #e0e0e0;
+    font-size: 22px; /* Slightly smaller icons */
+    transition: 0.3s;
+  }
+  
+  .footer-social a:hover {
+    color: #ff7f50;
+  }
+  
+  /* Copyright Section */
+  .footer-bottom {
+    background-color: #333;
+    padding: 8px; /* Reduced padding */
+    font-size: 12px; /* Smaller text */
+    margin-top: 5px;
+  }
+  
+  .footer-bottom a {
+    color: #ff7f50;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  

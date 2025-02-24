@@ -34,6 +34,20 @@
         .main-menu ul li a:hover {
             color: orange;
         }
+     /* Adjust Logo Styling */
+            .logo img {
+            margin-top: 10px;
+            max-height: 200px;
+            width: 300px;
+            display: block;
+        }
+        /* Ensure proper alignment */
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 65px; /* Match header height */
+        }
+
     </style>
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -45,7 +59,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/mission.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-8">
@@ -54,11 +68,8 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="index.php" class="nav-link" data-section="accueil">Accueil</a></li>
-                                            <li><a href="index.php#about" class="nav-link" data-section="about">Qui sommes-nous</a></li>
-                                            <li><a href="formations.php" class="nav-link" data-page="formations">Nos formations</a></li>
-                                            <li><a href="index.php#clients" class="nav-link" data-section="clients">Nos clients</a></li>
+                                            <li><a href="formation.php" class="nav-link" data-page="formation">Nos formations</a></li>
                                             <li><a href="app.php" class="nav-link" data-page="app">Notre application</a></li>
-                                            <li><a href="index.php#contact" class="nav-link" data-section="contact">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>

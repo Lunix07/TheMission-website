@@ -10,6 +10,10 @@
         background: linear-gradient(135deg, #99cbcc, #0940b8);
         color: #fff;
     }
+    .pos{
+        top:-100px !important;
+    }
+   
 
     .features {
         background: #f9f9f9;

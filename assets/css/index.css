@@ -243,6 +243,7 @@ section,
     text-align: center;
     padding-bottom: 20px;
     position: relative;
+    align-items: center;
  
 
 
@@ -261,6 +262,7 @@ section,
     font-weight: 700;
     padding-bottom: 30px;
     position: relative;
+  margin-top: 30px;
   }
   
   .section-title .green h2:after {
@@ -515,6 +517,24 @@ section,
   /*--------------------------------------------------------------
   # About Section
   --------------------------------------------------------------*/
+  .video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh; /* Full-screen height */
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100vw;
+    height: 95%;
+    object-fit: contain;}
+
+
+
 
 .closer-title {
   margin-bottom: 10px; /* Reduce the space below the title */
@@ -809,7 +829,7 @@ section,
   # OLD Clients Section
   --------------------------------------------------------------*/
   .clients {
-    padding: 40px 0; /* Increased padding for better spacing */
+    padding: 10px 0; /* Increased padding for better spacing */
 }
 
 .clients .client-logo {
@@ -836,7 +856,10 @@ section,
 
 .clients-slider {
   padding: 0px 0;
+  padding-bottom: 10px;
 }
+
+
 
 .swiper-slide {
   display: flex;
@@ -953,14 +976,13 @@ section,
   .call-to-action img {
     position: fixed;
     top: 0;
-    left: 0;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: 1;
     opacity: 0.3; /* Fades into background */
-
+    background-size: cover;
   }
   
   .call-to-action:before {
@@ -990,41 +1012,62 @@ section,
 }
 
   
-  .call-to-action .cta-btn {
-    font-family: var(--heading-font);
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 40px;
-    border-radius: 5px;
-    transition: 0.5s;
-    margin: 10px;
-    background: #FF7F50;
-    border: 2px solid #FF7F50;
-    color: #FFFFFF;
-  }
+/* Transparent button with orange border */
+.call-to-action .cta-btn {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 10px;
   
-  .call-to-action .cta-btn:hover {
-    background: var(--accent-color);
-    border: 2px solid var(--accent-color);
-  }
-  
+  background: transparent; /* Make button transparent */
+  border: 2px solid white; /* Orange border */
+  color: white; /* Orange text */
+  margin-top: 50px;
+
+}
+
+/* Hover effect: full orange */
+.call-to-action .cta-btn:hover {
+  background: #FF7F50;
+  color: #FFFFFF;
+}
   /*--------------------------------------------------------------
   # Pricing Section
   --------------------------------------------------------------*/
   .pricing {
     padding: 600px 0 100px 100;
+  }
+  
+  .pricing .section-title {
+    margin-bottom: 40px;
 
   }
   
+  .pricing .pricing-item {
+    background-color:white;
+    box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    height: 600px;
+    position: relative;
+    border-radius: 15px;
+    border: 3px solid #0940b8;
+    margin-left: -10px;
+    
+    
+    
+  }
  
   
    .pricing-item {
     background-color:white;
     box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
     padding: 20px 10px;
-    height: 450px;
+    height: 600px;
     position: relative;
     border-radius: 15px;
     border: 3px solid #0940b8;
@@ -1035,6 +1078,8 @@ section,
   .pricing .featured {
     z-index: 10;
     border: 4px solid #0940b8;
+    padding: 30px 20px;
+
   }
   
   
@@ -1046,7 +1091,7 @@ section,
   }
   .pricing p {
     font-size: 14px;
-    line-height: 32px;
+    line-height: 25px;
     margin-top: 40px;
   }
   
@@ -1156,136 +1201,74 @@ section,
   /*--------------------------------------------------------------
   # Contact Section
   --------------------------------------------------------------*/
-  .contact .info-item+.info-item {
-    margin-top: 40px;
-  }
-  
-  .contact .info-item i {
-    color: var(--accent-color);
-    background: color-mix(in srgb, var(--accent-color), transparent 92%);
-    font-size: 20px;
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-    margin-right: 15px;
-  }
-  
-  .contact .info-item h3 {
-    padding: 0;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 5px;
-  }
-  
-  .contact .info-item p {
-    padding: 0;
-    margin-bottom: 0;
-    font-size: 14px;
-  }
-  
-  .contact .info-item:hover i {
-    background: var(--accent-color);
-    color: var(--contrast-color);
-  }
-  
   .contact {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    border-radius: 20px;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    background: #0c3a53;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
   }
   
-  .php-email-form {
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 4px 10px rgba(230, 110, 19, 0.1);
+  .contact-text {
     margin-top: -50px;
-}
+    flex: 1;
+    padding-right: 50px; /* Adjust spacing */
+    text-align: left;
+  }
+  
+  .message {
+    font-size: 40px; /* Increased size */
+    font-weight: bold;
+    line-height: 1.5; /* Improved readability */
+    color: white;
 
-.form-group {
-    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #fe9833;
+    font-size: 42px; /* Bigger size */
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Contact Form */
+  .php-email-form {
+    max-width: 500px;
     width: 100%;
-}
-
-.form {
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form {
     width: 100%;
     padding: 12px;
-    border: none;
-    background: #f8f9fa;
+    border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-.form:focus {
-    outline: none;
-    background: #ffffff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-textarea.form {
-    resize: none;
-}
-
-.btn-submit {
-    background: #0940b8;
+    font-size: 18px;
+    background-color: #0c3a53;
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-submit:hover {
+  }
+  
+  .btn-submit {
     background: #fe9833;
-}
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-submit:hover {
+    background: #fe9833;
+  }
+  
 
-  
-  .form-field-pair {
-    display: flex;
-    gap: 100px;
-  }
-  
-  .form-field-pair .form-group {
-    flex: 1;
-  }
-  
-  
-  
-  @media (max-width: 768px) {
-    .form-field-pair {
-      flex-direction: column;
-      gap: 0;
-    }
-  }
-  
-  .loading,
-  .sent-message {
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 20px;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .loading {
-    background-color: #e9ecef;
-    color: #495057;
-  }
-  
-  .sent-message {
-    background-color: #d4edda;
-    color: #155724;
-  }
-  
   
   /*--------------------------------------------------------------
   # Service Details Section

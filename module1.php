@@ -193,6 +193,8 @@ session_start();
 </footer>
 
 
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
 
   
 

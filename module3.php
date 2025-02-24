@@ -87,12 +87,13 @@
         </div>
     </section>
 
-    <footer>
-        <div class="footer-wrapper section-bg2 pl-100" data-background="assets/img/gallery/footer-bg.png">
+    
             <?php include 'footer.php'; ?>
-        </div>
-    </footer>
 
+
+            
+            <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+            <script src="assets/js/jquery.slicknav.min.js"></script>
                 <script src="assets/js/main.js"></script>
 
     <script>

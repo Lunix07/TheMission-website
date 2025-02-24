@@ -8,7 +8,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>TheMission - Accueil</title>
-    <meta name="description" content="MissionTrack est une application pour la gestion de la qualité d’entreprise">
+    <meta name="description" content="THE MISSION is the best consulting firm you can wish for.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/loder.png">
 
@@ -116,29 +116,14 @@ session_start();
 
 </section><!-- /Hero Section -->
 
-<section id="about" class="section">
-    <div class="slider-area">
-        <div class="slider-active">
-            <!-- Single Slider -->
-            <div class="single-slider">
-                <div class="slider-cap-wrapper">
-                    <div class="hero-img" data-aos="fade-up" data-aos-delay="300">
-                        <img src="assets/img/identity.jpg" alt="About Us">
-                    </div>
-                    <div class="hero-caption" data-aos="fade-up" data-aos-delay="200">
-                        <!-- Section Title -->
-                        <h2 class="closer-title">About Us</h2>
-                        <!-- End Section Title -->
-                        <p>
-                            THE MISSION est un cabinet multidisciplinaire, notre expertise s’appuie sur notre expérience dans les domaines de la finance, la gestion des Ressources Humaines, la mise en place des systèmes de management normalisé, l’audit et le pilotage de projets.
-                        </p>
-                        <a href="#contact" class="contact-us">Contact Us →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="video-container">
+    <video id="aboutVideo" autoplay loop playsinline>
+        <source src="assets/img/about.MOV" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 </section>
+
+
 
 
 
@@ -149,10 +134,14 @@ session_start();
 
 <!-- Section Title -->
 <div class="container section-title blue" data-aos="fade-up">
-  <h2>The Mission</h2>
+  <br>
+  <br>
+  <br>
+
+
 </div><!-- End Section Title -->
 
-<div class="container themission" data-aos="zoom-in" data-aos-delay="100">
+<div class="container " data-aos="zoom-in" data-aos-delay="100">
 
   <div class="row g-4">
 
@@ -167,7 +156,6 @@ session_start();
           <li><i class="bi bi-check"></i> <span>Un renforcement des compétences : Nous apportons une expertise pointue et des expériences complémentaires à vos ressources internes. </span></li>
           <li><i class="bi bi-check"></i> <span>Une approche orientée résultats : Nos interventions visent des solutions concrètes et mesurables pour améliorer votre performance.</span></li>
           <li><i class="bi bi-check"></i> <span>Une confidentialité absolue : Toutes les informations et documents partagés sont strictement protégés.</span></li>
-          <li><i class="bi bi-check"></i> <span>Une démarche d'amélioration continue : Nous vous accompagnons dans l'optimisation durable de vos processus et pratiques.</span></li>
 
         </ul>
       </div>
@@ -316,13 +304,13 @@ session_start();
     </div>
 </div>
 
-
+</section>
 
 
     <!-- app Section -->
-    <section id="call-to-action" class="call-to-action  dark-background">
+    <section id="call-to-action" class="call-to-action ">
 
-      <img src="assets/img/app/logo.png" alt="">
+      <img src="assets/img/app/mission-process1.png" alt="">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
@@ -370,86 +358,67 @@ session_start();
     
    
     <!-- Contact Section -->
-    <section id="contact" class="contact section" >
+<section id="contact" class="contact section">
+  <div class="container" data-aos="fade-up">
+    <div class="row align-items-center">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-      </div><!-- End Section Title -->
+      <!-- Message à gauche -->
+      <div class="col-lg-6 contact-text">
+        <h1 class="message">Vous avez besoin de nos services ou d’un accompagnement spécifique pour votre entreprise ? Nos équipes sont à votre écoute pour répondre à vos enjeux.</h1>
+        <h3 class="highlight">Écrivez-nous !</h3>
+      </div>
 
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Adresse</h3>
-                <p>Tunis, Tunisia</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Appelez nous</h3>
-                <p>+216 55 270 867</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email </h3>
-                <p>faten.maalej@themission.tn</p>
-              </div>
-            </div><!-- End Info Item -->
-
+      <!-- Formulaire à droite -->
+      <div class="col-lg-6">
+        <form action="contact.php" method="post" class="php-email-form">
+          <div class="form-group">
+            <input type="text" name="prenom" class="form" placeholder="Prénom" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="name" class="form" placeholder="Nom" required>
           </div>
 
 
-
-
-          <div class="col-lg-8 formbox">
-    <form action="contact.php" method="post" class="php-email-form">
-        <div class="form-group">
-            <input type="text" name="name" class="form" placeholder="Name" required>
-        </div>
-        <div class="form-group">
-            <input type="email" class="form" name="email" placeholder="Email" required>
-        </div>
-        <div class="form-group">
+          <div class="form-group">
+            <input type="email" class="form" name="email" placeholder="E-mail" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" name="telephone" class="form" placeholder="Téléphone">
+          </div>
+          <div class="form-group">
             <textarea class="form" name="message" placeholder="Message" rows="4" required></textarea>
-        </div>
-        <div class="text-center">
-            <button type="submit" class="btn-submit">Send</button>
-        </div>
-    </form>
-</div>
-<div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn-submit">Envoyer</button>
+          </div>
 
-    <div class="loading">Chargement...</div>
-    <div class="sent-message">Votre message a été envoyé. Merci!</div>
-    <div class="error-message">An error occurred. Please try again.</div>
+          <div class="sent-message">Votre message a été envoyé. Merci!</div>
+          <div class="error-message">An error occurred. Please try again.</div>
 
-  </form>
-</div>
+        </form>
+      </div>
 
+    </div>
+  </div>
+</section>
+    <!-- Footer -->
+<footer>        
+        <?php include 'footer.php'; ?>
+</footer>
   </main>
 
-  <!-- Footer -->
-<footer>
-    <div class="footer-wrapper section-bg2 pl-100"  data-background="assets/img/gallery/footer-bg.png">
-        <!-- Footer Start -->
-        <?php include 'footer.php'; ?>
-        <!-- Footer End -->
-    </div>
-</footer>
+
    <!-- Scroll Up Button -->
    <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
+
+
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 <!-- JS here -->
 <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
@@ -461,7 +430,6 @@ session_start();
 
 <script src="assets/js/jquery.form.js"></script>
 
-<script src="assets/js/main.js"></script>
  
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -469,6 +437,8 @@ session_start();
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
+  <script src="assets/js/jquery.slicknav.min.js"></script>
+
 
 <!-- Swiper JS (CDN) -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -493,6 +463,11 @@ session_start();
       }
   });
 </script>
+
+
+<script src="assets/js/main.js"></script>
+
+
 
 </body>
 

@@ -33,6 +33,8 @@ session_start();
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
 
 
 </head>
@@ -57,14 +59,24 @@ session_start();
 
     <!-- Main content -->
     <main>
-        <!-- Introduction Section -->
-        <div class="section header">
-            <div class="container"style="color:white;">
-                <h2 class="section-title" data-aos="fade-down">MissionProcess - Gestion de la qualité d'entreprise</h2>
-                <p data-aos="fade-up" data-aos-delay="200" >MISSION PROCESS a été conçu pour être simple à utiliser, offrant une interface claire qui permet une prise en main rapide par vos équipes. Vous aurez une visibilité complète sur vos opérations qualité, ce qui vous permettra de prendre des décisions éclairées et d’optimiser vos processus.</p>
-                <img src="assets/img/app/app.png" alt="application" data-aos="zoom-in" data-aos-delay="400">
-            </div>
-        </div>
+          <!-- app Section -->
+    <section id="call-to-action" class="call-to-action section ">
+
+<img class="pos" src="assets/img/app/mission-process1.png" alt="">
+
+<div class="container">
+  <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+    <div class="col-xl-10">
+      <div class="text-center">
+      <h2 class="section-title" style="color:white" data-aos="fade-down">MissionProcess - Gestion de la qualité d'entreprise</h2>
+      <p data-aos="fade-up" data-aos-delay="200" >MISSION PROCESS a été conçu pour être simple à utiliser, offrant une interface claire qui permet une prise en main rapide par vos équipes. Vous aurez une visibilité complète sur vos opérations qualité, ce qui vous permettra de prendre des décisions éclairées et d’optimiser vos processus.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section><!-- /app Section -->
+
 
 <!-- Functionalities Section -->
 <div class="section features">
@@ -223,13 +235,17 @@ session_start();
 
     </main>
 
-    <!-- Footer Start -->
     <footer>
-    <div class="footer-wrapper section-bg2 pl-100"  data-background="assets/img/gallery/footer-bg.png">
    <?php include 'footer.php'; ?>
       </div>
   </footer>
-    <!-- Footer End -->
+
+
+
+
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
 
     <!-- Scroll Up Button -->
     <div id="back-top">
