@@ -77,7 +77,7 @@ session_start();
       <div class="carousel-container">
         <h2 class="animate__animated animate__fadeInDown">Formations Certifiantes et Qualifiantes pour Votre Établissement</h2>
         <p class="animate__animated animate__fadeInUp">Vous aspirez à optimiser les compétences de vos équipes ? THE MISSION est votre partenaire pour réaliser des projets ambitieux, développer des compétences ciblées et intégrer de nouvelles pratiques ou méthodes.</p>
-        <a href="formations.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">En savoir plus</a>
+        <a href="formation.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">En savoir plus</a>
       </div>
     </div>
 

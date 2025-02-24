@@ -158,6 +158,8 @@ session_start();
 
 
 
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
 <!-- for animation -->
 <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 
