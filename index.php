@@ -117,7 +117,7 @@ session_start();
 </section><!-- /Hero Section -->
 
 <section class="video-container">
-    <video id="aboutVideo" autoplay loop playsinline>
+    <video id="aboutVideo" autoplay loop playsinline muted controls>
         <source src="assets/img/about.MOV" type="video/mp4">
         Your browser does not support the video tag.
     </video>
