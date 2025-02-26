@@ -69,7 +69,7 @@ session_start();
     <div class="col-xl-10">
       <div class="text-center">
       <h2 class="section-title" style="color:white" data-aos="fade-down">MissionProcess - Gestion de la qualité d'entreprise</h2>
-      <p data-aos="fade-up" data-aos-delay="200" >MISSION PROCESS a été conçu pour être simple à utiliser, offrant une interface claire qui permet une prise en main rapide par vos équipes. Vous aurez une visibilité complète sur vos opérations qualité, ce qui vous permettra de prendre des décisions éclairées et d’optimiser vos processus.</p>
+      <p data-aos="fade-up" data-aos-delay="200" >MISSION PROCESS a été conçue pour être simple à utiliser, offrant une interface claire qui permet une prise en main rapide par vos équipes. Vous aurez une visibilité complète sur vos opérations qualité, ce qui vous permettra de prendre des décisions éclairées et d’optimiser vos processus.</p>
       </div>
     </div>
   </div>

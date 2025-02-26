@@ -1,4 +1,4 @@
-<?php
+<?php 
 // Initialize session
 session_start();
 ?>
@@ -32,72 +32,72 @@ session_start();
     <?php include 'header.php'; ?>
 
     <section class="intro-section">
-        <h1>Module N°5: Gestion des Non-Conformités.</h1>
-        <p>La gestion des non-conformités est cruciale pour maintenir la qualité et la conformité au sein de votre organisme. MISSION PROCESS vous offre des outils performants pour identifier, analyser et corriger les non-conformités, tout en transformant ces défis en opportunités d'amélioration.</p>
+        <h1>Module N°6: Gestion des Risques avec MISSION PROCESS</h1>
+        <p>La gestion des risques est essentielle pour anticiper les incertitudes qui peuvent affecter votre organisme. MISSION PROCESS vous fournit des outils performants pour identifier, évaluer et atténuer les risques, garantissant ainsi la pérennité et la sécurité de vos opérations.</p>
     </section>
 
     <section class="cards-section">
         <div class="card" onclick="showContent('content1', this)">
             <div class="card-icon">🔍</div>
-            <h3>Identification et Enregistrement des Non-Conformités</h3>
-            <p>Capturez toutes les non-conformités dès leur apparition pour une gestion efficace.</p>
+            <h3>Identification et Évaluation des Risques</h3>
+            <p>Détectez et évaluez les risques pour prioriser les efforts de gestion.</p>
         </div>
         <div class="card" onclick="showContent('content2', this)">
-            <div class="card-icon">🔎</div>
-            <h3>Analyse et Évaluation des Causes</h3>
-            <p>Effectuez une analyse approfondie pour identifier les causes sous-jacentes.</p>
+            <div class="card-icon">🛠️</div>
+            <h3>Élaboration de Plans d'Atténuation</h3>
+            <p>Développez des stratégies efficaces pour minimiser l'impact des risques.</p>
         </div>
         <div class="card" onclick="showContent('content3', this)">
-            <div class="card-icon">⚙️</div>
-            <h3>Mise en Œuvre des Actions Correctives et Préventives</h3>
-            <p>Développez des actions pour corriger et prévenir les non-conformités.</p>
+            <div class="card-icon">📊</div>
+            <h3>Surveillance et Révision des Risques</h3>
+            <p>Assurez un suivi continu et des mises à jour régulières des mesures prises.</p>
         </div>
         <div class="card" onclick="showContent('content4', this)">
-            <div class="card-icon">📊</div>
-            <h3>Reporting et Amélioration Continue</h3>
-            <p>Assurez un suivi et une amélioration continue des processus.</p>
+            <div class="card-icon">📢</div>
+            <h3>Reporting et Communication</h3>
+            <p>Communiquez efficacement les risques et les stratégies mises en place.</p>
         </div>
     </section>
 
     <section class="content-container">
-        <!-- Identification et Enregistrement des Non-Conformités -->
+        <!-- Identification et Évaluation des Risques -->
         <div id="content1" class="content-section">
-            <h2>Détection proactive</h2>
-            <p>Capturez toutes les non-conformités dès leur apparition, en fournissant des détails complets sur leur nature, leur source et leurs conséquences potentielles.</p>
+            <h2>Détection précoce</h2>
+            <p>Identifiez de manière proactive les risques potentiels à travers une évaluation systématique des processus et des activités de votre organisme.</p>
         </div>
         <div id="content1" class="content-section">
-            <h2>Centralisation des données</h2>
-            <p>Conservez un registre exhaustif des non-conformités, facilitant leur suivi et leur analyse.</p>
+            <h2>Évaluation des impacts</h2>
+            <p>Analysez la probabilité et la gravité de chaque risque pour prioriser vos efforts de gestion et allouer les ressources de manière efficace.</p>
         </div>
 
-        <!-- Analyse et Évaluation des Causes -->
+        <!-- Élaboration de Plans d'Atténuation -->
         <div id="content2" class="content-section">
-            <h2>Analyse des causes profondes</h2>
-            <p>Effectuez une investigation approfondie pour identifier les causes sous-jacentes des non-conformités, permettant une compréhension claire des facteurs contributifs.</p>
+            <h2>Stratégies d'atténuation</h2>
+            <p>Développez des plans d’action spécifiques pour atténuer les risques identifiés, en définissant des mesures concrètes à mettre en œuvre et des responsables désignés.</p>
         </div>
         <div id="content2" class="content-section">
-            <h2>Évaluation des risques</h2>
-            <p>Évaluez l'impact potentiel de chaque non-conformité sur vos processus et vos résultats, priorisant ainsi les actions à entreprendre.</p>
+            <h2>Suivi des mesures</h2>
+            <p>Assurez le suivi régulier des actions mises en place pour garantir leur efficacité et apporter des ajustements en fonction de l’évolution des situations.</p>
         </div>
 
-        <!-- Mise en Œuvre des Actions Correctives et Préventives -->
+        <!-- Surveillance et Révision des Risques -->
         <div id="content3" class="content-section">
-            <h2>Plan d'action structuré</h2>
-            <p>Développez des plans d'action détaillés pour corriger les non-conformités et prévenir leur récurrence, en définissant des responsabilités claires et des délais.</p>
+            <h2>Surveillance continue</h2>
+            <p>Mettez en place des indicateurs de performance pour surveiller l’évolution des risques et des actions d’atténuation, vous permettant d’agir rapidement en cas de besoin.</p>
         </div>
         <div id="content3" class="content-section">
-            <h2>Suivi de l’efficacité</h2>
-            <p>Assurez un suivi rigoureux des actions mises en œuvre, en vérifiant leur efficacité et en apportant des ajustements si nécessaires.</p>
+            <h2>Révisions périodiques</h2>
+            <p>Réévaluez régulièrement le paysage des risques et l’efficacité de vos mesures, intégrant les retours d’expérience pour améliorer continuellement votre approche.</p>
         </div>
 
-        <!-- Reporting et Amélioration Continue -->
+        <!-- Reporting et Communication -->
         <div id="content4" class="content-section">
-            <h2>Rapports d'analyse</h2>
-            <p>Produisez des rapports détaillés sur les non-conformités, les actions correctives et leur impact, favorisant la transparence et la responsabilisation.</p>
+            <h2>Rapports sur les risques</h2>
+            <p>Produisez des rapports détaillés sur l’état des risques et les actions entreprises, offrant une transparence essentielle pour la prise de décision.</p>
         </div>
         <div id="content4" class="content-section">
-            <h2>Intégration dans les processus d'amélioration</h2>
-            <p>Utilisez les leçons tirées des non-conformités pour alimenter votre démarche d'amélioration continue, renforçant ainsi la résilience et la qualité de votre organisme.</p>
+            <h2>Sensibilisation des parties prenantes</h2>
+            <p>Communiquez de manière proactive avec toutes les parties prenantes sur les risques identifiés et les mesures d’atténuation mises en place, renforçant ainsi la confiance et l’engagement.</p>
         </div>
     </section>
 

@@ -183,14 +183,9 @@ session_start();
 
 
         
-  <!-- Footer -->
-  <footer>
-    <div class="footer-wrapper section-bg2 pl-100"  data-background="assets/img/gallery/footer-bg.png">
-        <!-- Footer Start -->
+
         <?php include 'footer.php'; ?>
-        <!-- Footer End -->
-    </div>
-</footer>
+
 
 
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>

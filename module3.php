@@ -72,10 +72,7 @@
             <h2>Suivi des initiatives</h2>
             <p>Assurez un suivi constant des actions mises en place pour garantir leur efficacité, tout en ajustant vos stratégies selon les retours reçus.</p>
         </div>
-        <div id="content2" class="content-section">
-            <h2>Évaluation des formations</h2>
-            <p>Mesurez l’efficacité des formations grâce à des outils d’évaluation à chaud et à froid, pour ajuster continuellement les programmes et répondre aux évolutions des compétences requises.</p>
-        </div>
+
         <!-- Content for Advanced Topics -->
         <div id="content3" class="content-section ">
             <h2>Intégration des retours</h2>
