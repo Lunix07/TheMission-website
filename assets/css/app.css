@@ -31,38 +31,70 @@
     }
 
     /* Cards styling */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+
+    /* Use min-height instead of fixed height */
+    min-height: 450px; /* Allows expansion if content grows */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 220px; /* Slightly reduce image height */
+    object-fit: cover;
+}
+
+/* Ensure the card-body adapts dynamically */
+.card-body {
+    padding: 20px;
+    flex-grow: 1; /* Ensures the card-body expands */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card-text {
+    flex-grow: 1; /* Allows text to expand dynamically */
+    word-wrap: break-word; /* Prevents text overflow */
+    font-size: 1em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
     .card {
-        background-color: #fff;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s;
-        margin-bottom: 30px;
-
-        /* Fixed height for card */
-        height: 450px; /* Set a fixed height for all cards */
-        display: flex; /* Enable flexbox for vertical alignment */
-        flex-direction: column; /* Ensure vertical stacking */
-        justify-content: space-between; /* Space content evenly within the card */
-    }
-
-    .card:hover {
-        transform: translateY(-10px);
+        min-height: auto; /* Let cards resize freely */
     }
 
     .card img {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        height: 240px; /* Fixed height for the image */
-        object-fit: cover; /* Ensures the image scales correctly */
+        height: 180px; /* Reduce image height on small screens */
     }
 
-    .card-body {
-        padding: 20px;
-        flex-grow: 1; /* Allow the card body to grow and fill available space */
-        display: flex; /* Use flexbox for layout within card body */
-        flex-direction: column; /* Ensure vertical stacking */
+    .card-title {
+        font-size: 1.2em;
     }
+
+    .card-text {
+        font-size: 0.9em;
+    }
+}
+
 
     /* Text animations */
     [data-aos] {

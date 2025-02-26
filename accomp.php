@@ -18,7 +18,8 @@ session_start();
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+
 
 
 
@@ -157,8 +158,6 @@ session_start();
 <!-- for animation -->
 <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
   <!-- Vendor JS Files -->
