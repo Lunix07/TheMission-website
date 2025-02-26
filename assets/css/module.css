@@ -86,12 +86,14 @@
 .main-timeline2 .title {
     font-size: 24px;
     margin-bottom: 22px;
+    color: #ffffff;
+
 }
 
 .main-timeline2 .description {
     font-size: 15px;
     margin: 0 0 5px;
-    color: #010A44;
+    color: #ffffff;
 }
 
 .main-timeline2 .timeline:nth-child(2n) {
