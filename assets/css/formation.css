@@ -1,0 +1,184 @@
+.hero {
+    position: relative;
+    background: url('/assets/img/formation/formation.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 120px 20px;
+
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+
+}
+
+.hero .content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); /* Stronger text shadow */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 1); /* Stronger shadow for more visibility */
+}
+
+.hero p {
+    font-size: 1.4rem;
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-weight: 600; /* Increase font weight */
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9); /* More contrast */
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+        /* Certif Section */
+        .certif-section {
+            padding: 80px 20px;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        .certif-options {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .certif-card {
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            transition: 0.3s;
+            cursor: pointer;
+            width: 300px;
+            text-align: center;
+        }
+        .certif-card:hover {
+            transform: translateY(-5px);
+            background: #007bff;
+            color: white;
+        }
+        .certif-card i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #007bff;
+            transition: 0.3s;
+        }
+        .certif-card:hover i {
+            color: white;
+        }
+        .hidden {
+            display: none;
+        }
+        .formation-list {
+            margin-top: 30px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .formation-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .formation-list li {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        /* Solutions Section */
+        .section_our_solution {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .solution_cards_box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .solution_card {
+            flex: 0 1 30%;
+            background: white;
+            box-shadow: 0 2px 4px rgba(136, 144, 195, 0.2), 0 5px 15px rgba(37, 44, 97, 0.15);
+            border-radius: 15px;
+            margin: 15px;
+            padding: 20px;
+            transition: 0.5s;
+            min-height: 200px;
+            position: relative;
+        }
+        .solution_card:hover {
+            background: #309df0;
+            color: white;
+            transform: scale(1.05);
+        }
+        .solution_card:hover .solu_title h3,
+        .solution_card:hover .solu_description p {
+            color: white;
+        }
+        .solution_card:before {
+            content: "";
+            position: absolute;
+            background: rgba(85, 108, 214, 0.1);
+            width: 150px;
+            height: 300px;
+            transform: rotate(42deg);
+            right: -50px;
+            top: -20px;
+            border-radius: 35px;
+        }
+        .solu_title h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        .solu_description p {
+            font-size: 1rem;
+            color: #555;
+        }
+        .so_top_icon {
+            font-size: 2.5rem;
+            color: #309df0;
+            margin-bottom: 15px;
+        }
+        .solution_card:hover .so_top_icon {
+            color: white;
+        }
+
+
+        @media (max-width: 768px) {
+    .solution_cards_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .solution_card {
+        width: 90%; /* Full width with some margin */
+        max-width: 400px; /* Prevent overly large cards */
+    }
+}
+
+.cta-btn {
+    background: #0044CC;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 14px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
