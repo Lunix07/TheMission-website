@@ -150,7 +150,7 @@
         <div class="section cta" style="background: linear-gradient(135deg, #FF7F50, #E67E22, #D35400); color: #fff; text-align: center;">
     <div class="container">
         <h2 class="section-title" data-aos="fade-down" style="font-size: 2.8em; font-weight: 800;">Envie de perfectionner vos compétences ?</h2>
-        <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.2em; max-width: 700px; margin: 0 auto;">Contactez-nous dès aujourd’hui pour découvrir comment MissionProcess peut vous accompagner vers l’excellence !</p>
+        <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.2em; max-width: 700px; margin: 0 auto;">Contactez-nous dès aujourd’hui pour découvrir comment THE MISSION peut vous accompagner vers l’excellence !</p>
         <a href="index.php#contact" class="btn btn-lg cta-btn" data-aos="zoom-in" data-aos-delay="400">Contactez-nous</a>
     </div>
 </div>
@@ -248,8 +248,13 @@ $(document).ready(function () {
     }
 });
 
-
 </script>
+
+
+
+
+
+<script src="assets/js/jquery.slicknav.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
