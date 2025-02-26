@@ -24,9 +24,9 @@
 
     <!-- Social Media (Right) -->
     <div class="footer-social">
-      <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.facebook.com/TheMissionTN"><i class="fab fa-facebook-f"></i></a>
       <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-      <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/company/the-mission-tn/posts/?feedView=all"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
 

@@ -13,28 +13,30 @@ session_start();
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/loder.png">
 
   
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- pricing icons -->
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- animations -->
+    <
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- client swiper-->
+
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+
+  <!-- arrows for hero section-->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+ <!-- responsive navigation-->
     <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headline.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+     <!-- icon for scrollup -->
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+
   
 
 
@@ -427,30 +429,24 @@ session_start();
     </div>
 
 
+<!-- hero swiper -->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+<!-- animation -->
+<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+<!-- contact -->
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/jquery.form.js"></script>
+<!-- navigation -->
+<script src="assets/js/jquery.slicknav.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 
-<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-<!-- JS here -->
-<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-
-<script src="assets/js/jquery.validate.min.js"></script>
-
-
-<script src="assets/js/jquery.form.js"></script>
-
- 
-  <!-- Vendor JS Files -->
+  <!-- main -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
-  <script src="assets/js/jquery.slicknav.min.js"></script>
 
 
 <!-- Swiper JS (CDN) -->
