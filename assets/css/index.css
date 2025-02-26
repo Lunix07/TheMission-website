@@ -224,7 +224,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 70px 0; /* Reduced from 60px to 40px */
+  padding: 80px 0; /* Reduced from 60px to 40px */
   scroll-margin-top: 70px; /* Reduced margin */
   overflow: clip;
 }

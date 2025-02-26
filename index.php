@@ -339,7 +339,7 @@ session_start();
             <div class="swiper-wrapper">
                 <!-- Client Items -->
                 <div class="swiper-slide"><img src="assets/img/clients/client1.jpg" class="img-fluid" alt="Client 1"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client2.jpg" class="img-fluid" alt="Client 2"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client2.png" class="img-fluid" alt="Client 2"></div>
                 <div class="swiper-slide"><img src="assets/img/clients/client3.jpg" class="img-fluid" alt="Client 3"></div>
                 <div class="swiper-slide"><img src="assets/img/clients/client4.jpg" class="img-fluid" alt="Client 4"></div>
                 <div class="swiper-slide"><img src="assets/img/clients/client5.jpg" class="img-fluid" alt="Client 5"></div>
@@ -347,7 +347,20 @@ session_start();
                 <div class="swiper-slide"><img src="assets/img/clients/client8.jpg" class="img-fluid" alt="Client 8"></div>
                 <div class="swiper-slide"><img src="assets/img/clients/client9.jpg" class="img-fluid" alt="Client 9"></div>
                 <div class="swiper-slide"><img src="assets/img/clients/client10.jpg" class="img-fluid" alt="Client 10"></div>
-                <!-- Add more clients as needed -->
+                <div class="swiper-slide"><img src="assets/img/clients/client11.jpg" class="img-fluid" alt="Client 11"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client12.jpg" class="img-fluid" alt="Client 12"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client13.jpg" class="img-fluid" alt="Client 13"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client14.jpg" class="img-fluid" alt="Client 14"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client15.jpg" class="img-fluid" alt="Client 15"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client16.jpg" class="img-fluid" alt="Client 16"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client17.jpg" class="img-fluid" alt="Client 17"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client18.jpg" class="img-fluid" alt="Client 18"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client19.png" class="img-fluid" alt="Client 19"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client20.jpg" class="img-fluid" alt="Client 20"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client21.png" class="img-fluid" alt="Client 21"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client22.png" class="img-fluid" alt="Client 22"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client23.png" class="img-fluid" alt="Client 23"></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client24.png" class="img-fluid" alt="Client 24"></div>
             </div>
             <!-- Navigation Arrows -->
             <div class="swiper-button-next"></div>
