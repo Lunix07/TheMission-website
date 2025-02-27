@@ -120,7 +120,7 @@ session_start();
 
 <section class="video-container">
     <video id="aboutVideo" autoplay loop playsinline muted controls>
-        <source src="assets/img/about.MOV" type="video/mp4">
+        <source src="assets/img/about.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </section>
