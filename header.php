@@ -68,6 +68,7 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="index.php" class="nav-link" data-section="accueil">Accueil</a></li>
+                                            <li><a href="services.php" class="nav-link" data-section="services">Nos Services</a></li>
                                             <li><a href="formation.php" class="nav-link" data-page="formation">Nos formations</a></li>
                                             <li><a href="app.php" class="nav-link" data-page="app">Notre application</a></li>
                                             <li><a href="contactus.php" class="nav-link" data-page="contactus">Contact</a></li>
