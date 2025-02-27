@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/formation.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
 </head>
 
 
@@ -39,10 +42,17 @@
 
 
     <!-- Top Section -->
-    <section class="hero">
-        <h1>Nos Formations</h1>
-        <p> THE MISSION vous accompagne à la réalisation de vos grands projets, au développement de compétences ciblées, à l’intégration de nouvelles pratiques ou méthodes selon les modalités les plus adaptées à vos enjeux, à vos contraintes.</p>
-    </section>
+    <!-- Hero Section -->
+<section class="hero-section text-center text-white d-flex align-items-center justify-content-center position-relative" 
+         style="background: url('assets/img/formation/formation.jpg') center/cover no-repeat; height: 60vh;"
+         data-aos="fade-up" data-aos-duration="1000">
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
+    <div class="container position-relative">
+        <h1 class="display-4 fw-bold text-white text-shadow">NOS FORMATIONS</h1>
+        <p class="lead text-white text-shadow">THE MISSION vous accompagne à la réalisation de vos grands projets, au développement de compétences ciblées, à l’intégration de nouvelles pratiques ou méthodes selon les modalités les plus adaptées à vos enjeux, à vos contraintes.</p>
+    </div>
+</section>
+
 
     <!-- Nos Solutions -->
     <section class="section_our_solution">
@@ -153,7 +163,7 @@
         <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.2em; max-width: 700px; margin: 0 auto;">Contactez-nous dès aujourd’hui pour découvrir comment THE MISSION peut vous accompagner vers l’excellence !</p>
         <a href="index.php#contact" class="btn btn-lg cta-btn" data-aos="zoom-in" data-aos-delay="400">Contactez-nous</a>
     </div>
-</div>
+        </div>
 
 
 
@@ -167,91 +177,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script>
-$(document).ready(function () {
-    const formations = {
-        "management_certifiante": [
-            "Consultant certifié : Lead Implementer ISO 9001",
-            "Auditeur certifié : Lead Implementer ISO 9001",
-            "Consultant certifié : Lead Implementer ISO 21001",
-            "Auditeur certifié : Lead Implementer ISO 21001",
-            "Consultant certifié : Lead Implementer ISO 14001",
-            "Auditeur certifié : Lead Auditor ISO 14001",
-            "Consultant certifié : Lead Implementer ISO 45001",
-            "Auditeur certifié : Auditor Lead ISO 45001"
-        ],
-        "management_qualifiante": [
-            "Exigences de la norme ISO 9001:2015",
-            "Exigences de la norme ISO 21001:2018",
-            "Exigences de la norme ISO 45001:2018",
-            "Exigences de la norme ISO 14001:2015",
-            "Audit interne selon la norme ISO 19011:2018",
-            "La satisfaction client et traitements des réclamations selon la norme ISO 10002:2018",
-            "Management des risques selon la norme ISO 31000:2018",
-            "Indicateurs et tableaux de bord",
-            "Management par approche processus",
-            "Management par l'innovation",
-            "Concevoir et mettre en œuvre un Système de Management Intégré Qualité – Sécurité – Environnement"
-        ],
-        "gestion_rh": [
-            "Élaboration d'un plan de formation",
-            "Gestion des carrières et des compétences",
-            "Gestion des compétences et de la polyvalence",
-            "Gestion des ressources et management d'équipe",
-            "La communication RH au service de la fonction GRH",
-            "Définition et mise en place d'un plan de carrière"
-        ],
-        "finance": [
-            "Initiation à la finance d'entreprise",
-            "Les fondamentaux de l'analyse financière",
-            "Les outils d'analyse financière",
-            "Analyse financière et diagnostic financier",
-            "Gestion de la trésorerie et du cash-flow",
-            "Stratégies de financement des entreprises"
-        ]
-    };
-
-    // Click on Management Button
-    $("#managementBtn").click(function () {
-        $("#certifChoice").removeClass("hidden");  // Show Certifiante/Qualifiante choices
-        $("#gestionChoice").addClass("hidden");    // Hide Gestion RH/Finance choices
-        $("#formationList").addClass("hidden");    // Hide previous formations
-    });
-
-    // Click on Certifiante/Qualifiante
-    $("#certifChoice .certif-card").click(function () {
-        const type = $(this).data("type");
-        const key = `management_${type}`;
-        displayFormations(formations[key]);
-    });
-
-    // Click on Gestion des performances organisationnelles Button
-    $("#performanceBtn").click(function () { 
-        $("#certifChoice").addClass("hidden");     // Hide Certifiante/Qualifiante options
-        $("#formationList").addClass("hidden");    // Hide previous formations
-        $("#gestionChoice").removeClass("hidden"); // ✅ Show Gestion RH/Finance options
-    });
-
-    // Click on Gestion RH/Finance
-    $(".gestion-card").click(function () {
-        const type = $(this).data("type");
-        displayFormations(formations[type]);
-    });
-
-    // Display Formations List
-    function displayFormations(list) {
-        $("#formations").empty();
-        list.forEach(formation => {
-            $("#formations").append(`<li>${formation}</li>`);
-        });
-        $("#formationList").removeClass("hidden");
-    }
-});
-
-</script>
-
-
-
+<script src="assets/js/formation.js"></script>
 
 
 <script src="assets/js/jquery.slicknav.min.js"></script>
