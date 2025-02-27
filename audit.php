@@ -155,8 +155,6 @@ session_start();
 
         <?php include 'footer.php'; ?>
 
-<!-- JS here -->
-
 
 
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
@@ -185,8 +183,6 @@ session_start();
 <script src="assets/js/main.js"></script>
 
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
   <!-- Vendor JS Files -->

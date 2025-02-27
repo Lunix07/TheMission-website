@@ -2,6 +2,7 @@
 
 
 <link rel="stylesheet" href="assets/css/footer.css"> 
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
 <!-- Footer Section -->
 <footer class="custom-footer">
